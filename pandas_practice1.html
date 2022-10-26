@@ -204,7 +204,7 @@ title="Toggle navigation"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/pandas_practice1.ipynb"
+        <a href="https://mybinder.org/v2/gh/KatsuhiroMorishita/python_practice.git/master?urlpath=tree/docs/pandas_practice1.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -247,7 +247,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://github.com/executablebooks/jupyter-book"
+        <a href="https://github.com/KatsuhiroMorishita/python_practice.git"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -264,7 +264,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fpandas_practice1.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/KatsuhiroMorishita/python_practice.git/issues/new?title=Issue%20on%20page%20%2Fpandas_practice1.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -413,11 +413,16 @@ Excelでは手に負えないサイズの表を、Excelよりも素早く処理�
 <br>
 <p><strong>よく使う関数（メソッド）</strong></p>
 <ul class="simple">
-<li><p>pd.read_csv(file_name)  # csvファイルを読み込む。文字コードの指定が必要なことも。</p></li>
-<li><p>pd.read_excel(file_name)  # Excelファイルを読み込む。シート名・番号を指定しないと、0番目が読まれる。</p></li>
-<li><p>pd.read_html(url)   # Webサイトに埋め込まれた表を読み込む。DataFrame型の要素を持つlist型が返る。</p></li>
-<li><p>df.head()      # DataFrame型の変数dfがあるとして、dfの上から5行が表示される。行が多い場合に利用。</p></li>
-<li><p>df.dropna()    # DataFrame型の変数dfがあるとして、dfから非値nanを含む行を削除する。特定の列を指定するには引数subsetを指定する。</p></li>
+<li><p>pd.read_csv(file_name)<br />
+csvファイルを読み込む。文字コードの指定が必要なことも。</p></li>
+<li><p>pd.read_excel(file_name)<br />
+Excelファイルを読み込む。シート名・番号を指定しないと、0番目が読まれる。</p></li>
+<li><p>pd.read_html(url)<br />
+Webサイトに埋め込まれた表を読み込む。DataFrame型の要素を持つlist型が返る。</p></li>
+<li><p>df.head()<br />
+DataFrame型の変数dfがあるとして、dfの上から5行が表示される。行が多い場合に利用。</p></li>
+<li><p>df.dropna()<br />
+DataFrame型の変数dfがあるとして、dfから非値nanを含む行を削除する。特定の列を指定するには引数subsetを指定する。</p></li>
 </ul>
 <br>
 <p><strong>よく使う書き方</strong></p>
