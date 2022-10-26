@@ -64,26 +64,21 @@ plt.show()       # グラフの表示を指示（グラフの設定が終わっ�
 # ```
 # 
 # <br>
-# <details>
-# <summary>■解答例の表示（Click）</summary><div>
-#     
-# 解答例を以下に示す。
-#     
-# ```python  
-# import matplotlib.pyplot as plt     # matplotlibを取り込む
-# %matplotlib inline
-# 
-# x = [1,2,3,4,5]
-# y = [4,5,2,1,3]
-# plt.plot(x, y)   # 折れ線グラフの描画を指示
-# plt.grid(True)   # グリッドを表示
-# plt.show()       # グラフの表示を指示（グラフの設定が終わった後に呼び出す）
-# ```
-#     
-# ![画像（Colaboratoryでは描画されないので、フォルダ内のfig_matplotlib_1.pngを確認のこと）](./images/fig_matplotlib_1.png  "折れ線グラフ")
-# 
-# <center>表示されるグラフ</center>
-# </div></details>
+# 解答例を以下に示す。（表示されていない場合、クリックで表示）
+
+# In[2]:
+
+
+# 解答例
+import matplotlib.pyplot as plt     # matplotlibを取り込む
+get_ipython().run_line_magic('matplotlib', 'inline')
+
+x = [1,2,3,4,5]
+y = [4,5,2,1,3]
+plt.plot(x, y)   # 折れ線グラフの描画を指示
+plt.grid(True)   # グリッドを表示
+plt.show()       # グラフの表示を指示（グラフの設定が終わった後に呼び出す）
+
 
 # ---
 # ### 問題　関数のグラフ描画
@@ -257,7 +252,7 @@ plt.show()       # グラフの表示を指示（グラフの設定が終わっ�
 # <b>以下は問題作成用のコード</b>  
 # 無視してください。
 
-# In[2]:
+# In[3]:
 
 
 import numpy as np    # numpyを取り込み、npという名前で使う、という命令

@@ -9,6 +9,7 @@ parts:
     numbered: True
     chapters:
     - file: basic_practice1.ipynb
+    - file: basic_practice2.ipynb
     
   - caption: ライブラリ毎の練習問題
     numbered: True
