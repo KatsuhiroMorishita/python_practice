@@ -28,11 +28,16 @@
 # 
 # **よく使う関数（メソッド）**    
 # 
-# - pd.read_csv(file_name)  # csvファイルを読み込む。文字コードの指定が必要なことも。
-# - pd.read_excel(file_name)  # Excelファイルを読み込む。シート名・番号を指定しないと、0番目が読まれる。
-# - pd.read_html(url)   # Webサイトに埋め込まれた表を読み込む。DataFrame型の要素を持つlist型が返る。
-# - df.head()      # DataFrame型の変数dfがあるとして、dfの上から5行が表示される。行が多い場合に利用。
-# - df.dropna()    # DataFrame型の変数dfがあるとして、dfから非値nanを含む行を削除する。特定の列を指定するには引数subsetを指定する。
+# - pd.read_csv(file_name)  
+#   csvファイルを読み込む。文字コードの指定が必要なことも。
+# - pd.read_excel(file_name)  
+#   Excelファイルを読み込む。シート名・番号を指定しないと、0番目が読まれる。
+# - pd.read_html(url)   
+#   Webサイトに埋め込まれた表を読み込む。DataFrame型の要素を持つlist型が返る。
+# - df.head()   
+#   DataFrame型の変数dfがあるとして、dfの上から5行が表示される。行が多い場合に利用。
+# - df.dropna()  
+#   DataFrame型の変数dfがあるとして、dfから非値nanを含む行を削除する。特定の列を指定するには引数subsetを指定する。
 # 
 # <br>
 # 
